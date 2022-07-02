@@ -5,9 +5,11 @@ The information used for this dataset includes multiple media categories such as
 
 ## Overview of Project
 ![Outcomes vs goals](/Resources/Outcomes_vs_Goals.png)
+
 This chart plots the amount of theater play kickstarter campaings that had a successful, failed or cancelled outcome depending on their goal amount range. To do this, all the relevant information from our dataset was filted using the countif function to get the appropriate information for each range and outcome category. The outcome percentage was obtained by dividing each outcome amount from the sumation of the 3 outcome categories.
 
 ![Outcomes vs launch date](/Resources/Theater_Outcomes_vs_Launch.png)
+
 This chart plots the total count of theater-related kickstarter campaings depending on their launch month for years from 2009 to 2017. This was done by creating a pivot table from the kickstarter dataset and filtering this information according to the parent category which in this case is theater. This included the subcategories plays, musicals and spaces. 
 
 Then, the shown pivot chart was created using the information from the pivot table. Plotting the outcomes in the columns and the count of outcomes as the values, against the created month. 
