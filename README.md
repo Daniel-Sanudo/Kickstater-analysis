@@ -5,7 +5,7 @@ The information used for this dataset includes multiple media categories such as
 
 ## Overview of Project
 ![Outcomes vs goals](/Resources/Outcomes_vs_Goals.png)
-This chart plots the amount of theater play kickstarter campaings that had a successful, failed or cancelled outcome depending on their goal amount range. To do this, all the relevant information from our dataset was filted using the countif function to get the appropriate information for each range and outcome category. The outcome percentage was obtained by dividing each outcome amount from the sumation of the 3 outcome categories,
+This chart plots the amount of theater play kickstarter campaings that had a successful, failed or cancelled outcome depending on their goal amount range. To do this, all the relevant information from our dataset was filted using the countif function to get the appropriate information for each range and outcome category. The outcome percentage was obtained by dividing each outcome amount from the sumation of the 3 outcome categories.
 
 ![Outcomes vs launch date](/Resources/Theater_Outcomes_vs_Launch.png)
 This chart plots the total count of theater-related kickstarter campaings depending on their launch month for years from 2009 to 2017. This was done by creating a pivot table from the kickstarter dataset and filtering this information according to the parent category which in this case is theater. This included the subcategories plays, musicals and spaces. 
@@ -35,14 +35,14 @@ A possible challenge for this project would be finding a common topic or interes
 2. December and January have the lowest sucessful outcome percentage compared to the rest of the year.
 
 - What can you conclude about the Outcomes based on Goals?
-1. Funding campaings that ask for less than $5000 dollars have the highest success rate. 
-2. Although the chart shows that plays between the 35000 to 44999 dollars has a success rate above 50%, the sample size is 9 campaings out of which 5 have succeded (4 out of 6 in the 35000 to 39999 range, and 2 out of 3 in the 40000 to 44999 range).
+  1. Funding campaings that ask for less than $5000 dollars have the highest success rate. 
+  2. Although the chart shows that plays between the 35000 to 44999 dollars has a success rate above 50%, the sample size is 9 campaings out of which 5 have succeded (4 out of 6 in the 35000 to 39999 range, and 2 out of 3 in the 40000 to 44999 range).
 
 - What are some limitations of this dataset?
-1. The dataset for the Outcomes based on Goal relied on the play subcategory. For this specific section, the amount of campaings that asked for more than 15,000 dollars are few compared to the ones that asked for less than this amount (86 campaings required more than 15,000 dollars vs 961 that asked for less than this amount), thus the information for these campaings might not be entirely reliable.
-2. The dataset does not include information from 2017 to 2022, which means that current trends that could affect the interest in theater plays is not reflected in them.
+  1. The dataset for the Outcomes based on Goal relied on the play subcategory. For this specific section, the amount of campaings that asked for more than 15,000 dollars are few compared to the ones that asked for less than this amount (86 campaings required more than 15,000 dollars vs 961 that asked for less than this amount), thus the information for these campaings might not be entirely reliable.
+  2. The dataset does not include information from 2017 to 2022, which means that current trends that could affect the interest in theater plays is not reflected in them.
 
 - What are some other possible tables and/or graphs that we could create?
-1. We could include a theater play outcome per country to know which countries have the highest interest in watching or funding plays.
-2. Adding a column that shows the time it took to fund the kickstater (end date minus creation date) and its outcome would help us track the maximum expected time it takes to fund the campaings, as well as the threshold after which a campaing should be cancelled.
-3. We should also add a histogram to know what's the most common pledge amount range for theater plays.
+  1. We could include a theater play outcome per country to know which countries have the highest interest in watching or funding plays.
+  2. Adding a column that shows the time it took to fund the kickstater (end date minus creation date) and its outcome would help us track the maximum expected time it takes to fund the campaings, as well as the threshold after which a campaing should be cancelled.
+  3. We should also add a histogram to know what's the most common pledge amount range for theater plays.
