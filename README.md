@@ -33,8 +33,8 @@ A possible challenge for this project would be finding a common topic or interes
 
 ## Results
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
-1. Funding campaigns launched on May and June have the highest success percentage, which is above 65%.
-2. December and January have the lowest sucessful outcome percentage compared to the rest of the year.
+  1. Funding campaigns launched on May and June have the highest success percentage, which is above 65%.
+  2. December and January have the lowest sucessful outcome percentage compared to the rest of the year.
 
 - What can you conclude about the Outcomes based on Goals?
   1. Funding campaings that ask for less than $5000 dollars have the highest success rate. 
